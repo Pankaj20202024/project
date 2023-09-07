@@ -1,0 +1,441 @@
+#MainContainer {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    background-color: rgba(189, 187, 185, 0.555);
+    display: flex;
+}
+
+/* meals menu container css  */
+
+#FoodMenuContainer {
+    width: 64%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0.8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+#TagsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid rgb(119, 119, 119);
+}
+
+#TagsContainer button {
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 1%;
+    margin: 1%;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.selected_tag {
+    border: 2px solid rgb(12, 12, 149);
+}
+
+.unselected_tag {
+    border: 1.4px solid rgb(152, 152, 152);
+}
+
+#FoodListContainer {
+    border-bottom: 2px solid rgb(119, 119, 119);
+    width: 100%;
+    display: flex;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#Food_Image_Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#Food_Image_Container img {
+    width: 290px;
+    height: 290px;
+}
+
+
+#FoodDetailsAndDrinksContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#Food_Details_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#menuTitle {
+    font-family: "Roboto", sans-serif;
+}
+
+#menuDescription {
+    font-family: "Bree Serif", serif;
+    margin-top: 1%;
+    font-size: 1rem;
+
+}
+
+
+#moreinfo {
+    font-family: "Bree Serif", serif;
+    font-size: 1rem;
+    margin-top: 1%;
+
+}
+
+#moreinfo b {
+    color: rgb(1, 1, 46);
+    font-family: "Roboto", sans-serif;
+
+}
+
+#DrinkContainer {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#DrinkImages {
+    width: 70%;
+}
+
+#DrinkImages img {
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.unselected_drink {
+    border: 2px solid rgb(102, 102, 102);
+}
+
+.selected_drink {
+    border: 2px solid rgb(12, 12, 149);
+}
+
+#PriceWithSelectOption {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#PriceWithSelectOption p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: "Bree Serif", serif;
+    color: rgb(2, 2, 47);
+
+}
+
+#PriceWithSelectOption button {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 8%;
+    margin: 1%;
+    border: 2px solid rgb(0, 1, 34);
+    width: 100%;
+    cursor: pointer;
+    color: rgb(2, 2, 47);
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* billing container css */
+
+#BillingContainer {
+    width: 36%;
+    margin-top: 0.8%;
+    margin-right: 0.7%;
+
+}
+
+#Select_meal_container {
+    display: flex;
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 3%;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+#FlightImageContainer {
+    width: 8%;
+    margin-right: 2%;
+}
+
+#FlightImageContainer img {
+    width: 100%;
+    filter: invert(45%);
+}
+
+#Select_meal_container p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 16);
+    padding: 0.4%;
+}
+
+
+#PassengerOrderContainer {
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+#HeaderContainer {
+    display: flex;
+    width: 100%;
+    padding-left: 1.5%;
+    cursor: pointer;
+}
+
+
+#HeaderDetailContainer {
+    width: 90%;
+    cursor: pointer;
+}
+
+#HeaderDetailContainer h3 {
+    color: rgb(0, 0, 16);
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+#HeaderDetailContainer p {
+    color: rgb(75, 75, 75);
+    width: 100%;
+    font-family: "Bree Serif", serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+#down_up_button {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#down_up_button img {
+    width: 27%;
+    filter: invert(20%);
+}
+
+
+#total_amount_container {
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: "Bree Serif", serif;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+#total_amount_container p b {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.Passengername {
+    font-family: "Roboto", sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+.MealStatus {
+    font-size: 0.9rem;
+    font-family: "Bree Serif", serif;
+    color: rgb(85, 85, 85);
+    margin-left: 16%;
+}
+
+.SelectedItemsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+.emptyselction {
+    color: rgb(88, 88, 88);
+    font-size: 0.9rem;
+    font-family: "Bree Serif", serif;
+
+}
+
+.slectedItemName {
+    height: 20px;
+}
+
+.slectedItemName li {
+    font-family: "Bree Serif", serif;
+    color: rgb(130, 130, 130);
+}
+
+.deselectButton {
+    font-family: "Bree Serif", serif;
+    color: rgb(130, 130, 130);
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+/* Media queries for making website responsive  */
+
+@media (max-width: 1214px) {
+    #Food_Image_Container img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 1084px) {
+    #Food_Image_Container img {
+        width: 230px;
+        height: 230px;
+    }
+
+    #FoodMenuContainer {
+        width: 58%;
+    }
+
+    #BillingContainer {
+        width: 42%;
+    }
+
+    #moreinfo {
+        font-size: 0.9rem;
+    }
+
+    #menuDescription {
+        font-size: 0.9rem;
+    }
+
+    #menuTitle {
+        font-size: 0.9rem;
+    }
+
+    #TagsContainer button{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 929px) {
+    #Food_Image_Container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #FoodMenuContainer {
+        width: 54%;
+    }
+
+    #BillingContainer {
+        width: 46%;
+    }
+}
+
+@media (max-width: 876px) {
+    #TagsContainer {
+        padding-bottom: 3%;
+        margin-bottom: 3%;
+    }
+
+    #TagsContainer button {
+        /* width: 50%; */
+        font-size: 1rem;
+    }
+    #FoodListContainer {
+        flex-direction: column;
+    }
+    #menuTitle {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 2%;
+      
+    }
+
+    #moreinfo {
+        font-size: 1rem;
+
+    }
+
+    #menuDescription {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 841px) {
+    #MainContainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #FoodMenuContainer {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+    #BillingContainer {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 541px) {
+
+    #FoodMenuContainer {
+        width: 90%;
+    }
+
+    #BillingContainer {
+        width: 90%;
+    }
+
+}
+
+
+
