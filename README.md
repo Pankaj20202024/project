@@ -1,4 +1,4 @@
-### Instruction To Run The Project
+## Instruction To Run The Project
 
 ### Step 1: Download and Extract the Project
 
@@ -7,6 +7,7 @@
 3. Navigate to your local download folder and unzip the downloaded ZIP file (usually named "project-master").
 
 ### Step 2: Open the Project in VS Code 
+
 #### Option 1: Using VS Code
 
 1. Right-click on the folder containing the project files (e.g., "frontend" or "backend").
