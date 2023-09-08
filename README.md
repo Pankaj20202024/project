@@ -65,9 +65,3 @@ Inside the first PowerShell terminal (frontend folder), run the following comman
 ```powershell
 npm start
 ```
-
-
-
-### Video Instruction
-
-
