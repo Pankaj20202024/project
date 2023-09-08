@@ -59,7 +59,7 @@ Inside the second PowerShell terminal (backend folder), run the following comman
 npm start
 ```
 
-### Step 6 : Opening User Interface
+### Step 7 : Opening User Interface
 
 Inside the first PowerShell terminal (frontend folder), run the following command to start the user interface:
 ```powershell
