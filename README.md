@@ -68,8 +68,6 @@ npm start
 
 
 
-
-
-
+### Video Instruction
 
 
