@@ -78,8 +78,5 @@ npm start
 
 https://github.com/Pankaj20202024/project/assets/121535589/659bb54d-d7c2-4931-b54c-89f73a31161d
 
-###step 8 : Starting backend and frontend 
-
-https://github.com/Pankaj20202024/project/assets/121535589/4ba0c096-6f57-4edf-9f40-4c304d268e37
 
 
